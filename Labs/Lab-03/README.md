@@ -1,12 +1,23 @@
-# Lab 03 — Exploratory Data Analysis (EDA)
+# Lab 03 — Data Exploration & Visualization
+
+**Course:** ITAI 1371 — Introduction to Machine Learning
+**Author:** Cesar Zaldivar
+
+---
 
 ## What I Did
-Performed a full exploratory data analysis on a structured dataset, including visualizing distributions, identifying correlations, and detecting outliers using box plots and scatter matrices.
+Applied exploratory data analysis techniques to understand dataset structure,
+distributions, and relationships between variables through statistical summaries
+and visualizations.
 
 ## What I Learned
-- How to use `describe()`, `value_counts()`, and `corr()` to summarize data quickly
-- How to create informative visualizations with Seaborn (heatmaps, pair plots, histograms)
-- Why EDA is a critical first step before any model training — what you find here shapes every downstream decision
+- How to load, inspect, and summarize datasets using pandas
+- How to create meaningful visualizations that reveal patterns not visible
+  in raw numbers
+- The importance of understanding your data before applying any model
 
-## Challenges
-Understanding which chart type is appropriate for which kind of data (categorical vs. continuous) required some trial and error.
+## Notebook
+[View Lab 03 Notebook](Lab03_Lab_CesarZaldivar_ITAI1371.ipynb)
+
+## Tools Used
+`Python` · `pandas` · `Matplotlib` · `Seaborn` · `Google Colab`
