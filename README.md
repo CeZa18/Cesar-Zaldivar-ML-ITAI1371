@@ -46,11 +46,11 @@ Hi, I'm Cesar Zaldivar, a student passionate about the intersection of technolog
 
 ## 📊 Portfolio Presentation
 
-![Slide 1](presentation/slide1.jpg)
-![Slide 2](presentation/slide2.jpg)
-![Slide 3](presentation/slide3.jpg)
-![Slide 4](presentation/slide4.jpg)
-![Slide 5](presentation/slide5.jpg)
+![Slide 1](presentation/Slide1.jpg)
+![Slide 2](presentation/Slide2.jpg)
+![Slide 3](presentation/Slide3.jpg)
+![Slide 4](presentation/Slide4.jpg)
+![Slide 5](presentation/Slide5.jpg)
 
 ---
 
