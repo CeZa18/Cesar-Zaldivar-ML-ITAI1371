@@ -1,4 +1,4 @@
-# Midterm Project — Predictive Modeling Pipeline
+# Midterm Project — Supervised Learning Pipeline
 
 **Course:** ITAI 1371 — Introduction to Machine Learning
 **Author:** Cesar Zaldivar
@@ -6,16 +6,29 @@
 ---
 
 ## Problem Statement
-Built a complete supervised machine learning pipeline to classify or predict a target outcome from structured tabular data, demonstrating the full workflow from raw data to evaluated model.
+Built a complete supervised machine learning pipeline to classify outcomes from
+structured tabular data, demonstrating the full workflow from raw data exploration
+to a trained and evaluated model.
 
 ## Approach & Methods
-- **Data preprocessing:** Handled missing values, encoded categorical variables, and scaled numerical features
-- **Exploratory Data Analysis:** Visualized distributions, correlations, and class balance
-- **Models trained:** Applied and compared multiple classification algorithms
-- **Evaluation:** Used accuracy, precision, recall, and F1-score to select the best-performing model
+- **Data Preprocessing:** Handled missing values using median imputation for skewed
+  features, applied One-Hot Encoding for categorical variables, and scaled numerical
+  features where required
+- **Exploratory Data Analysis:** Visualized distributions, correlations, and class
+  balance to inform preprocessing and modeling decisions
+- **Models Trained:** Applied and compared multiple classification algorithms
+- **Evaluation:** Used accuracy, precision, recall, and F1-score with macro averaging
+  to assess performance fairly across all classes
 
 ## Results
-The best model achieved strong performance on the held-out test set. Evaluation metrics confirmed the model generalizes beyond the training data without significant overfitting.
+The best-performing model achieved strong accuracy on the held-out test set. Evaluation
+metrics confirmed the model generalizes beyond the training data without significant overfitting.
 
 ## Key Takeaways
-This project reinforced that data quality and preprocessing decisions have a greater impact on final model performance than model selection alone. A well-cleaned, well-understood dataset is the foundation of any successful ML pipeline.
+- Data quality and preprocessing decisions have a greater impact on final model performance
+  than model selection alone
+- Matching your evaluation metric to the problem type is as important as the metric value itself
+- A well-understood dataset is the foundation of any successful ML pipeline
+
+## Tools Used
+`Python` · `scikit-learn` · `pandas` · `Matplotlib` · `Seaborn` · `Google Colab`
